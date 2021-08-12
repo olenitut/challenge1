@@ -1,0 +1,37 @@
+@media (max-width: 40em) {
+  html {
+    font-size: 50%;
+  }
+  .section-hero {
+    height: auto;
+  }
+  .container {
+    flex-direction: column-reverse;
+    margin: 3.6rem 2rem;
+  }
+  .hero-text-box {
+    width: auto;
+    padding: 4rem 3rem;
+    text-align: center;
+  }
+  .hero-img-box {
+    width: auto;
+    height: 30rem;
+  }
+  .stats-box {
+    grid-template-columns: 1fr;
+    /* row-gap: 1.2rem; */
+  }
+  .stats-text:nth-child(4) {
+    grid-row: 2;
+  }
+  .stats-text:nth-child(5) {
+    grid-row: 4;
+  }
+  .stats-text {
+    margin-bottom: 2.2rem;
+  }
+  .stats-number {
+    margin-bottom: 1rem;
+  }
+}

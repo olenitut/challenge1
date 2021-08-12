@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+.section-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(233, 47%, 7%);
+  height: 100vh;
+}
+.container {
+  /* height: 600% vh; */
+  /* margin-top: 12rem; */
+  max-width: 110rem;
+  display: flex;
+  border-radius: 0.5rem;
+  background-color: hsl(244, 38%, 16%);
+  overflow: hidden;
+  margin: 4rem;
+}
+
+.hero-text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+  width: 50%;
+}
+
+.main-header {
+  font-size: 3.6rem;
+  padding-bottom: 2.2rem;
+}
+
+.main-header span {
+  color: hsl(277, 64%, 61%);
+}
+
+.hero-text {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 7rem;
+}
+
+.stats-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.stats-number {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.stats-text {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: hsla(0, 0%, 100%, 0.6);
+  letter-spacing: 0.15rem;
+}
+.hero-img-box {
+  width: 50%;
+  background-image: linear-gradient(
+      rgba(170, 92, 219, 0.5),
+      rgba(93, 36, 128, 0.5)
+    ),
+    url("/images/image-header-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+}
